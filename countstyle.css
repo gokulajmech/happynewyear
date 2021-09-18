@@ -1,0 +1,42 @@
+body{
+    height:100vh;
+      background:SpringGreen;
+    /*   background-size:cover; */
+      display:flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .content{
+      color:SaddleBrown;
+      background-size:cover;
+      background-color:yellow;
+      border:0.5rem solid white;
+      display:flex;
+      align-items: center;
+      justify-content: space-evenly;
+    
+      height:50%;
+      font-size:10rem;
+      position:relative;
+      top:0rem;
+      bottom:0rem;
+      overflow:hidden;
+      width: 28.07rem;
+     
+      text-shadow: 50px 11px 22px rgba(150, 150, 163, 0.87);
+      transition:1sec; 
+    }
+    
+    
+     .size-card{
+      background-size: cover;
+        overflow: auto;
+        position: absolute;
+        top: 0rem;
+        bottom: 0rem;
+        left: 0;
+        right: 0;
+        height: 25rem;
+        width: 28.07rem;
+    } 
+    
